@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Bulma - Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
+        <a href="#" class="navbar-item">
+          <img src="ressources/html-coding.png" alt="logo html" />
+        </a>
+        <div
+          class="navbar-burger burger"
+          id="btnNav"
+          data-target="menu-content"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="menuContent" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#home" class="navbar-item has-text-centered"> Accueil </a>
+        </div>
+        <div class="navbar-end">
+          <a href="#about" class="navbar-item has-text-centered"> À propos </a>
+          <a href="#projets" class="navbar-item has-text-centered"> Mes projets </a>
+          <a href="#contact" class="navbar-item has-text-centered"> Contact </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section page d'accueil -->
+    <!-- Hero section -->
+
+    <div class="columns is-desktop">
+        <div class="column is-6-desktop">  
+    
+            <section id="home" class="hero is-fullheight">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <h2 class="subtitle">Salut,</h2>
+                        <h1 class="title is-1">Je suis Gaëtan</h1>
+                        <h2 class="subtitle is-3">Un développeur Front-End passionné en quête perpétuelle de connaissance !</h2>
+                        <button class="button is-primary is-rounded is-medium">Contacte-moi !</button>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <div class="column is-6-desktop has-text-centered">
+            <img src="ressources/homeImg.jpg" alt="img accueil">
+        </div>
+    </div>
+        <!-- section à propos  -->
+
+    <section class="container" id="about">
+      <h2
+        class="title is-1 has-text-centered"
+        style="font-family: kaushan script"
+      >
+        Qui suis-je ?
+      </h2>
+      <figure class="image container is-128x128">
+        <img
+          src="ressources/face.jpg"
+          alt="image de profil"
+          class="is-rounded is-centered"
+        />
+      </figure>
+
+      <br />
+      <div class="columns is-centered">
+        <p class="column is-6 has-text-justified">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+          libero beatae delectus maiores, minus commodi quisquam! Aliquid eum
+          placeat delectus unde voluptate odit consequatur fuga, laudantium
+          neque doloribus dicta distinctio non cumque doloremque molestiae
+          reiciendis atque ducimus nam quae officiis in repellat error ab ea.
+          Nulla veniam magni est quidem perferendis quibusdam sequi laboriosam,
+          ipsum distinctio soluta tempore esse molestias voluptates animi
+          consequatur laudantium possimus, beatae ipsa vero excepturi quod
+          expedita dolore? Laudantium dolore perspiciatis deserunt expedita
+          provident temporibus vel.
+        </p>
+      </div>
+    </section>
+
+    <!-- projets -->
+<hr>
+<section class="container" id="projets">
+    <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Mes projets</h2>
+
+    <div class="columns is-multiline is-centered is-mobile">
+        <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/Sass.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/bulma-banner.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/JavaScript.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/node.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/React.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-8-mobile is-4-tablet is-4-desktop">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="ressources/AngularJS_logo.svg.png" alt="logo card" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Gaëtan Dammaretz</p>
+                <p class="subtitle is-4">@GDevWeb</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet,
+              dicta!
+              <a href="#">@bulmaio</a>
+              <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2023-28-02">11:09 PM - 28 Fév 2024</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<br><br>
+<!-- Section contact -->
+<hr>
+<br><br>
+<section class="container" id="contact">
+    <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Contactez-moi</h2>
+    <div class="field">
+        <label class="label">Nom</label>
+        <div class="control">
+            <input type="text" placeholder="Nom" class="input">
+        </div>
+    </div>
+    <div class="field">
+        <label class="label">Prenom</label>
+        <div class="control">
+    <div class="control has-icons-left has-icons right">
+        <input type="text" class="input" placeholder="Prénom">
+        <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+        </span>
+    </div>            
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left">
+            <input type="mail" class="input" placeholder="Email" value="hello@">
+            <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+
+        </div>
+    </div>
+
+    <div class="field">
+        <label for="" class="label">Message</label>
+        <div class="control">
+            <textarea cols="30" rows="10" class="textarea" placeholder="Votre message..."></textarea>
+        </div>
+    </div>
+
+    <div class="field is-grouped">
+        <div class="control">
+            <button type="button" class="button is-link">Envoyer</button>
+        </div>
+        <div class="control">
+            <button type="button" class="button is-text">Remettre à zéro</button>
+        </div>
+    </div>
+</section>
+
+<br><br>
+<!-- Footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            Tous droits réservés &copy;
+        </p>
+    </div>
+</footer>
+
+
+    <script>
+      const btn = document.getElementById("btnNav");
+      const menu = document.getElementById("menuContent");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("is-active");
+      });
+    </script>
+  </body>
+</html>
